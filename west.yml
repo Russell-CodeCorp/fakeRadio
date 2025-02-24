@@ -5,7 +5,7 @@ manifest:
       url: git@github.com:Russell-CodeCorp/fakeShared.git
       # path-prefix: shared
 
-    - name: zephyr-nordic
+    - name: zephyr-radio
       revision: v3.7.99-ncs3-branch
       url: git@github.com:nrfconnect/sdk-zephyr.git
       import:
