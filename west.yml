@@ -10,7 +10,7 @@ manifest:
       url: git@github.com:nrfconnect/sdk-zephyr.git
       import:
         file: west.yml
-        path-prefix: deps
+        path-prefix: radio/deps
         name-allowlist:
           - hal_nordic
           - mcuboot
