@@ -5,9 +5,9 @@ manifest:
       url: git@github.com:Russell-CodeCorp/fakeShared.git
       # path-prefix: shared
 
-    - name: zephyr
-      revision: feature/EFG-1996
-      url: git@bitbucket.org:codecorpIT/zephyr-nxp.git
+    - name: zephyr-nordic
+      revision: v3.7.99-ncs3-branch
+      url: git@github.com:nrfconnect/sdk-zephyr.git
       import:
         file: west.yml
         path-prefix: deps
