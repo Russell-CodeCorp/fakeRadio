@@ -1,0 +1,17 @@
+manifest:
+
+  projects:
+    - name: shared
+      url: git@github.com:Russell-CodeCorp/fakeShared.git
+      # path-prefix: shared
+
+    - name: zephyr
+      revision: feature/EFG-1996
+      url: git@bitbucket.org:codecorpIT/zephyr-nxp.git
+      import:
+        file: west.yml
+        path-prefix: deps
+        name-allowlist:
+          - hal_nordic
+          - mcuboot
+          - segger
